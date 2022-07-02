@@ -1,0 +1,343 @@
+body{
+    background-color: #AFABBA;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    height:auto;
+}
+
+
+.navbar{
+    direction: rtl;
+background-color: #6E829A !important;
+
+
+}
+
+.nav-icons{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    /* background-color: aqua; */
+}
+.nav-text{
+text-decoration: none;
+color: #262E2A;
+font-size:17px;
+margin-left: auto;
+font-weight: 600;
+
+}
+.nav-text:hover{
+    text-decoration: none;
+    color:rgba(12, 12, 12, 0.933);
+}
+.navbar img{
+    margin-left:80px;
+    height: 50px;
+    width: 44px;
+}
+
+/* ////////////medium-screens//////////// */
+@media(max-width:768px){
+    .navbar img{
+        height: 45px;
+        width: 39px;
+        margin: 0;
+
+    }
+    .nav-icons{
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        width:180px;
+        /* background-color: aqua; */
+    }
+    .nav-text{
+
+        font-size:15px;
+        margin-left: auto;
+        margin-right: 10px;
+        
+        }
+}
+
+@media(min-width:768px){
+    .navbar img{
+        height: 50px;
+        width: 44px;
+
+    }
+
+    .nav-text{
+
+        font-size:20px;
+        margin-left: auto;
+        margin-right:40px;
+        font-weight:700;
+        
+        }
+
+        .nav-icons{
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            width:350px;
+            /* background-color: aqua; */
+        }
+}
+
+
+
+
+/* /////////////// end of main page navbar//////////// */
+
+
+
+/* /////////////// end of main page navbar//////////// */
+
+
+
+/* ////////////start of main page body ////////////// */
+.panner-border{
+    height: 350px;
+    width: inherit;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+/*//////////////// panner /////////////////// */
+.main-page-pannar-img{
+    height: 400px;
+    width: 1000px;
+
+
+}
+
+
+@media(max-width:767px){
+.main-page-pannar-img{
+    width: 343px;
+    height: 144px;
+}
+}
+
+/* /////////////////////menu-icons/////////////// */
+.menu-icons{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+direction: rtl;
+
+}
+/* /////////////////////menu-box//////////////////// */
+.menu-box{
+    height: 70px;
+    width: 70px;
+    background-color: #E67D5D;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFCF2;
+}
+.menu-box:hover{
+    text-decoration: none;
+    color: #453F3C;
+}
+/* //////////////////menu-food///////////////// */
+.menu-food{
+/* background-color: #E67D5D; */
+direction: rtl;
+display: flex;
+flex-direction: column;
+height: 400px;
+align-items: flex-start;
+}
+.chicken-box-hr{
+    background-color:#415942;
+    height: 9px;
+    width: 200px;
+    /* margin-top: 0px; */
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+
+}
+.chicken-burger{
+    background-color: #E3E3E3;
+    width: 200px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: space-around;
+
+}
+.chicken-burger-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.chicken-burger img{
+    height: 78px;
+    width: 75px;
+    margin-left: 30px;
+}
+.chicken-salad-box{
+    background-color: #E3E3E3;
+    width: 250px;
+    height:120px ;
+    margin-right: 10px;
+    margin-top: 0px;
+    display: flex;
+
+}
+.chicken-salad-img{
+height: 60px;
+width: 58px;
+margin-top:30px;
+justify-content: flex-start;
+}
+.chicken-salad-hr{
+    height:9px;
+    width:250px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    background-color: #6a6767;
+    
+}
+/* ////////////end of main page body ////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////// start of category page navbar//////////// */
+
+
+.navbar-category{
+    direction: rtl;
+background-color: #6e829a !important;
+height: 150px;
+
+
+}
+.navbar-category img{
+    height: 50px;
+    width: 44px;
+    position: absolute;
+    top: 10px;
+}
+.back-to-main{
+    color:#262E2A ;
+    font-size: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+}
+.back-to-main:hover{
+    text-decoration: none;
+    color: #252d2ad1;
+}
+.nav-first-sec{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.text-nav{
+    text-align: center;
+    margin: auto;
+    color: #262E2A;
+}
+.text-nav h4{
+    font-weight: 600;
+
+}
+/* ////////////medium-screens//////////// */
+@media(max-width:768px){
+    .back-to-main{
+        margin-left: 20px;
+        margin-top: 10px;
+
+    }
+    .navbar-category{
+        height: 150PX;
+    }
+    .navbar-category img{
+        height: 50px;
+        width: 44px;
+        /* margin-top: 0; */
+        position: absolute;
+        top: 5px;
+        right:40px ;
+    }
+    }
+
+/* ///////////////////////////cards/////////////////// */
+.card{
+    background-color: #AFABBA;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    
+
+
+}
+.img-border img{
+    height: 45px;
+    width: 60px;
+
+}
+.card-txet{
+    /* background-color: aqua; */
+    width: 400px;
+    /* margin-right: auto; */
+}
+.img-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color:#E3E3E3;
+    height: 70px;
+    width: 70px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+@media(max-width:767px){
+.img-border{
+    height: 75px;
+    width: 75px;
+}
+.img-border img{
+    height: 54px;
+    width: 70px;
+}
+}
